@@ -1,17 +1,24 @@
-body {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav_bar {
+  width: 100%;
   background-color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+main,
+h1,
+p {
+  padding: 0;
 }
 
 h1,
 p {
   color: white;
-}
-
-.nav_bar {
-  width: 100%;
-  background-color: black;
-  text-emphasis-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Courier New", Courier, monospace;
 }
